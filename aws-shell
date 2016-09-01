@@ -1,0 +1,17 @@
+   Install (awscli and aws-shell) on RHEL
+   
+   10 yum install wget
+   11  wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm
+   12  rpm -ivh epel-release-7-8.noarch.rpm
+   13  yum repolist
+   14  yum search pip
+   15  pip install awscli
+   16  python --version
+   17  yum install python-pip
+   18  pip install awscli
+   19  clear
+   20  aws help
+   
+   22  pip install aws-shell
+   23  sudo pip install aws-shell
+   24  aws-shell
